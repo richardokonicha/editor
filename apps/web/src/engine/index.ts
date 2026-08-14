@@ -3,3 +3,5 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 export * from './create-engine';
+export * from './context';
+export * from './hooks';
