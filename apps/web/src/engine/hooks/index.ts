@@ -4,6 +4,5 @@
 
 export * from './use-active-scene';
 export * from './use-camera';
-export * from './use-running';
 export * from './use-editor';
 export * from './use-tool';
