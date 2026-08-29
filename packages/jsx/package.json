@@ -17,7 +17,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
+    "build": "node init && tsc -p tsconfig.build.json",
     "check": "tsc --noEmit",
     "prepublishOnly": "npm run build",
     "prepack": "node scripts/prepack.mjs",
