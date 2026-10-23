@@ -5,9 +5,9 @@
   "license": "MPL-2.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "build:desktop": "tsc -b && vite build --mode desktop --base=./ --outDir=../desktop/web",
+    "dev": "node init && vite",
+    "build": "node init && tsc -b && vite build",
+    "build:desktop": "node init && tsc -b && vite build --mode desktop --base=./ --outDir=../desktop/web",
     "preview": "vite preview",
     "check": "tsc -p tsconfig.app.json --noEmit",
     "lint": "eslint ."
