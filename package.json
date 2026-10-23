@@ -9,10 +9,10 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "npm run dev:desktop",
+    "dev": "node api.js && npm run dev:desktop",
     "dev:web_v1": "npm run dev --workspace=@diffusionstudio/web",
     "dev:desktop": "node scripts/dev-desktop.mjs",
-    "build": "npm run build --workspace=@diffusionstudio/web",
+    "build": "node api.js && npm run build --workspace=@diffusionstudio/web",
     "build:web_v1": "npm run build --workspace=@diffusionstudio/web",
     "build:desktop": "npm run build --workspace=@diffusionstudio/desktop",
     "make": "npm run make --workspace=@diffusionstudio/desktop",
